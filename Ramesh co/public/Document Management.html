@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Dashboard</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+		<nav>
+			<ul>
+				<li><button class="w3-button w3-teal w3-xlarge" onclick="openNav()">&#9776;</button></li>
+				<li><input type="button" onclick="window.location.href='index.html'" value="Home"></li>
+				<li><input type="button" onclick="window.location.href='about.html'" value="about"></li>
+				<li><input type="button" onclick="window.location.href='contact.html'" value="contact"></li>
+				
+			</ul>
+		</nav>
+	</header>
+	<div id="mySideNav" class="side-menu">
+	    <a href="#" class="close-btn" onclick="closeNav()">&times;</a>
+	    <ul>
+			<li><a href="services.html">Services</a></li>
+			<li><a href="HR Management.html">HR Management</a></li>
+			<li><a href="Organisational Structure.html">Organisational Structure </a></li>
+			<li><a href="Finance.html">Finance </a></li>
+			<li><a href="Task.html">Task</a></li>
+			<li><a href="Document Management.html">Document Management </a></li>
+		</ul>
+	</div>
+	<section class="">
+		
+	</section>
+	<footer>
+		<p>&copy; 2023 Ramesh P. Jain & Co</p>
+	</footer>
+	<script>
+		function openNav() {
+			document.getElementById("mySideNav").style.width = "250px";
+		}
+
+		function closeNav() {
+			document.getElementById("mySideNav").style.width = "0";
+		}
+	</script>
+	
+</body>
+</html>

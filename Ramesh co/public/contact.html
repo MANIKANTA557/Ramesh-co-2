@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Contact Us</title>
+	<link rel="stylesheet" href="css/style.css">
+	<style>
+	</style>
+</head>
+<body background="">
+	<header>
+		<nav>
+			<ul>
+				<li><button class="w3-button w3-teal w3-xlarge" onclick="openNav()">&#9776;</button></li>
+				<li><input type="button" onclick="window.location.href='index.html'" value="Home"></li>
+				<li><input type="button" onclick="window.location.href='about.html'" value="about"></li>
+				<li><input type="button" onclick="window.location.href='contact.html'" value="contact"></li>
+				
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section  class="highlight1">
+			<h1>Contact Us</h1>
+			<p>Feel free to contact us with any questions or comments you may have. You can use the form below or call us at the number provided.</p>
+			<form>
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" required>
+
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required>
+
+				<label for="message">Message:</label>
+				<textarea id="message" name="message" required></textarea>
+
+				<button type="submit">Submit</button>
+			</form>
+			<p>Phone: 123-456-7890</p>
+		</section>
+	</main>
+	<div id="mySideNav" class="side-menu">
+	    <a href="#" class="close-btn" onclick="closeNav()">&times;</a>
+	    <ul>
+			<li><a href="services.html">Services</a></li>
+			<li><a href="HR Management.html">HR Management</a></li>
+			<li><a href="Organisational Structure.html">Organisational Structure </a></li>
+			<li><a href="Finance.html">Finance </a></li>
+			<li><a href="Task.html">Task</a></li>
+			<li><a href="Document Management.html">Document Management </a></li>
+		</ul>
+	</div>
+	<section class="">
+		
+	</section>
+	<footer>
+		<p>&copy; 2023 </p>
+	</footer>
+	<script>
+		function openNav() {
+			document.getElementById("mySideNav").style.width = "250px";
+		}
+
+		function closeNav() {
+			document.getElementById("mySideNav").style.width = "0";
+		}
+	</script>
+	
+</body>
+</html>
